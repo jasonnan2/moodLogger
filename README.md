@@ -11,7 +11,6 @@ This is a lightweight internal tool built with Python and Streamlit that allows 
 - Google Sheet as the backend (live and collaborative)
 - Visualize mood distribution:
   - For today only
-  - Grouped by day
   - Full historical view
 - Colored bar charts using Seaborn (happy = green, mid = yellow, angry = red)
 - Clean, minimal UI with Streamlit
