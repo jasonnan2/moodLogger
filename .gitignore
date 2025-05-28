@@ -1,0 +1,30 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Credentials and secrets
+creds/
+credentials.json
+.secrets/
+.secrets.toml
+.streamlit/secrets.toml
+
+# Environment files
+.env
+*.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Streamlit-specific
+.streamlit/config.toml
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
