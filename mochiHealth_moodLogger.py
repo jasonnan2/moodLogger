@@ -5,6 +5,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
 import gspread
 import seaborn as sns
+import json
 
 # ------------------------------
 # Google Sheets Setup
@@ -15,7 +16,8 @@ SHEET_NAME = "NanJason_MochiHealth_moodLogger"
 
 @st.cache_resource
 def get_gsheet():
-    creds = ServiceAccountCredentials.from_json_keyfile_name("creds/credentials.json", SCOPE)
+    creds_dict = st.secrets["google"]
+    creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, SCOPE)
     client = gspread.authorize(creds)
     sheet = client.open(SHEET_NAME).sheet1
     return sheet
