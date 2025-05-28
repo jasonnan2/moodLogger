@@ -21,6 +21,7 @@ This is a lightweight internal tool built with Python and Streamlit that allows 
 ## 🚀 Demo
 
 👉 [Deployed App on Streamlit Cloud](https://jasonnan2-moodlogger-mochihealth-moodlogger-jt2nm3.streamlit.app/)
+
 📊 [Linked Google Sheet](https://docs.google.com/spreadsheets/d/1eKCxOPorMe_b8YhgplvpVgEYLUyMt7B9uYsQPPbhTNw/edit?usp=sharing)
 
 ---
